@@ -358,7 +358,7 @@ img {
     height: auto;
 }
 
-footer {
+.footer {
     background: #2e2f42;
     padding: 100px 0;
 
@@ -374,6 +374,7 @@ footer {
     text-transform: uppercase;
     text-decoration: none;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-footer-primary {
@@ -402,9 +403,5 @@ footer {
 }
 
 .footer-text {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
     gap: 16px;
-    display: inline-block;
 }
