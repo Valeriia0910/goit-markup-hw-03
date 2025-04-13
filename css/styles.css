@@ -64,7 +64,6 @@ ol {
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
-    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -85,8 +84,7 @@ ol {
     flex-direction: row;
     gap: 40px;
     width: 261px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 nav ul {
@@ -178,7 +176,9 @@ nav ul li:first-child a:focus {
     min-width: 169px;
     height: 56px;
     border: none;
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 button {
@@ -198,11 +198,13 @@ button {
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
+    margin: -1px;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-container ul {
@@ -217,7 +219,6 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
 
@@ -233,6 +234,7 @@ button {
 
 .features-list {
     list-style: none;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .title-three {
@@ -250,6 +252,7 @@ button {
 .team {
     background-color: #F4F4FD;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .ourteam {
@@ -261,9 +264,11 @@ button {
     display: flex;
     gap: 24px;
     padding: 0px 0px 32px 0px;
-
 }
 
+.ourteam-li {
+    border-radius: 0px 0px 4px 4px;
+}
 
 .ourteam-title {
     color: #2e2f42;
