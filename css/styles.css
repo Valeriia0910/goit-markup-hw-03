@@ -65,6 +65,7 @@ ol {
     flex-direction: row;
     gap: 0px;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .headerlogo a {
@@ -75,6 +76,7 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .headerlogo {
@@ -84,10 +86,6 @@ ol {
     flex-direction: row;
     gap: 40px;
     width: 261px;
-}
-
-.nav-li {
-    padding: 24px 0;
 }
 
 nav ul {
