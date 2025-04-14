@@ -124,10 +124,6 @@ nav ul li:first-child a:focus {
     text-decoration: none;
 }
 
-.mail {
-    padding-right: 40px;
-}
-
 
 .adress {
     font-style: normal;
@@ -160,7 +156,7 @@ nav ul li:first-child a:focus {
     text-align: center;
     color: #fff;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     max-width: 496px;
 }
 
@@ -230,7 +226,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 8px 0;
 }
 
 .features-list {
@@ -247,7 +242,6 @@ button {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .team {
@@ -257,18 +251,17 @@ button {
 }
 
 .ourteam {
-    background-color: #FFFFFF;
     list-style: none;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
     display: flex;
     gap: 24px;
-    padding: 0px 0px 32px 0px;
 }
 
 .ourteam-li {
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .ourteam-title {
@@ -291,7 +284,6 @@ button {
 }
 
 .ourteam-text {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -336,12 +328,12 @@ button {
 }
 
 .portfolio-text {
-    display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     gap: 8px;
-    border-bottom: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
+    border-top: none;
     padding: 32px 16px;
 }
 
